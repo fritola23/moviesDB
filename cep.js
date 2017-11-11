@@ -3,6 +3,13 @@ var tit = $('#film');
 load.hide();
 tit.hide();
 
+$('#titulo').keypress(function(event){
+	if(event.keyCode == 13){
+	  $('#pesquisar').click();
+	}
+  });
+
+
 $("#pesquisar").click(function(){
 
 	load.show();

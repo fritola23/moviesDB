@@ -1,34 +1,41 @@
-body{
-	background-color: #cbd9ef;
+body {
+  background-color: #BED7FF;
 }
 
-.container{
-	width: 300px;
-	height: auto;
-	margin: 0 auto;
-	text-align: center;
+.container {
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
 }
 
-
-input{
-	display: block;
-	margin: 0 auto;
-	margin-bottom: 10px;
-	
+input {
+  display: block;
+  margin: 0 auto 10px;
 }
 
-.loading{
-	display: block;
-	width: 100%;
+.loading {
+  display: block;
+  width: 100%;
 }
 
-#loading{
-	display: block;
-	width: 35px;
-	height: 35px;
-	margin: 0 auto;
+#loading {
+  display: block;
+  width: 35px;
+  height: 35px;
+  margin: 0 auto;
 }
 
-button{
-	border-radius: 3px;
+input::placeholder {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+}
+
+#poster{
+	max-width: 300px;	
 }
