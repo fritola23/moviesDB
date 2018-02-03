@@ -20,7 +20,7 @@ $("#pesquisar").click(function(){
 	if(titulo != ''){
 
 		$.ajax({
-	url: "http://omdbapi.com/?t="+titulo+"&apikey=PlzBanMe",	
+	url: "http://omdbapi.com/?t="+titulo+"&apikey=a9eecd66",	
 	method: 'GET'
 	}).done(function(data) {
 	$('#filme').html(data.Title);
